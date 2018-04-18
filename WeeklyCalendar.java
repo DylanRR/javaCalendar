@@ -223,7 +223,7 @@ public class WeeklyCalendar {
             System.out.println();
             System.out.println();
             System.out.println("_______________________________________________________________________________________________________________________________________________________________");
-            System.out.println("Would you like to “add”, “remove”, “printDay”, “printAll”, “checkTime”, or “quit”");
+            System.out.println("Would you like to Â“addÂ”, Â“removeÂ”, Â“printDayÂ”, Â“printAllÂ”, Â“checkTimeÂ”, or Â“quitÂ”");
             System.out.println("           Please enter your choice as seen above");
             Scanner scan = new Scanner(System.in);
             String myLine = scan.nextLine();
@@ -414,8 +414,6 @@ public class WeeklyCalendar {
             else {
                 System.out.println("That is an invalid option");
             }
-
-
         }
 
     }
